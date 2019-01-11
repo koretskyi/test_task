@@ -1,0 +1,400 @@
+.header-box {
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #f4e8a8, #6acac3);
+	padding-bottom: 45px;
+	padding-top: 310px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.header-box__magnet {
+	position: absolute;
+	top: 550px;
+	right: -100px;
+	transform: rotate(220deg);
+}
+
+.header-box__swoosh {
+	position: absolute;
+	top: 0px;
+	right: 500PX;
+}
+
+.header-box__swoosh1 {
+	position: absolute;
+	top: 600px;
+	right: 1000PX;
+	transform: rotate(300deg);
+}
+
+.header-box__swoosh2 {
+	position: absolute;
+	top: -220px;
+	right: 1000PX;
+	transform: rotate(20deg);
+}
+
+.header-box__swoosh3 {
+	position: absolute;
+	top: 80px;
+	left: 570PX;
+	transform: rotate(50deg);
+}
+.header-box__man {
+	position: absolute;
+	right: 350px;
+	top: 230px;
+
+}
+
+.header-box__man1 {
+	position: absolute;
+	right: 410px;
+	top: 390px;
+}
+
+.header-box__man2 {
+	position: absolute;
+	top: 280px;
+	left: 870PX;
+	transform: rotate(330deg);
+}
+
+.header-box__man3 {
+	position: absolute;
+	top: 550px;
+	right: 580px;
+	transform: rotate(30deg);
+}
+
+.header-box__man5 {
+	position: absolute;
+	top: 530px;
+	right: 650px;
+	transform: rotate(363deg);
+}
+
+.header-box__man6 {
+	position: absolute;
+	top: 670px;
+	right: 640px;
+
+}
+.header-box__woman {
+	position: absolute;
+	top: 10px;
+	right: 650px;
+}
+
+
+.header-box__woman2 {
+	position: absolute;
+	top: 250px;
+	right: 290px;
+}
+
+.header-box__woman3 {
+	position: absolute;
+	right: 360px;
+	top: 270px;
+}
+
+.header-box__woman4 {
+	position: absolute;
+	top: 350px;
+	right: 370px;
+}
+
+.header-box__woman5 {
+	position: absolute;
+	top: 500px;
+	right: 530px;
+}
+
+.header-box__woman6 {
+	position: absolute;
+	top: 450px;
+	right: 580px;
+}
+
+.header-box__woman7 {
+	position: absolute;
+	top: 620px;
+	right: 650px;
+}
+
+.header-box__electricity {
+	position: absolute;
+	top: 330px;
+	right: 220px;
+}
+
+.header-box__electricity1 {
+	position: absolute;
+	top: 400px;
+	right: 260px;
+}
+
+.header-box__electricity2 {
+	position: absolute;
+	top: 390px;
+	right: 300px;
+}
+
+.header-box__electricity3 {
+	position: absolute;
+	top: 440px;
+	right: 290px;
+}
+
+.header-box__electricity4 {
+	position: absolute;
+	top: 560px;
+	right: 400px;
+}
+
+.header-box__electricity5 {
+	position: absolute;
+	top: 580px;
+	right: 460px;
+}
+.header-box__electricity6 {
+	position: absolute;
+	top: 630px;
+	right: 410px;
+}
+
+.header-box__electricity7 {
+	position: absolute;
+	top: 660px;
+	right: 460px;
+}
+.header-box__logo { 
+	position: absolute;
+	top: -40px;
+	left: 175px;
+}
+
+.header-box__slogan {
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 26px;
+	color: #44a09b;
+	margin-left: 185px;
+	margin-bottom: 35px;
+}
+
+.header-box__title {
+	font-size: 62px;
+	letter-spacing: 1px;
+	line-height: 84px;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 185px;
+	margin-bottom: 75px;
+}
+
+.header-box__title .text-bold {
+	font-weight: 700;
+}
+
+
+.header-box__registration {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-top-right-radius: 110px;
+	border-bottom-right-radius: 110px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 825px;
+	padding-top: 50px;
+	padding-right: 135px;
+	padding-left: 185px;
+	padding-bottom: 50px;
+	margin-bottom: 275px;
+
+}
+
+.header-box__registration time {
+	font-size: 28px;
+	font-family: "Open Sans', sans-serif";
+	font-weight: 700;
+	line-height: 47px;
+	color: #ff8141;
+	margin-bottom: 20px;	
+}
+
+.header-box__registration a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 494px;
+	height: 66px;
+	border-radius: 33px;
+	background-color: #ff8141;
+	font-size: 34px;
+	line-height: 43px;
+	color: #ffffff;
+	font-family: "Open Sans', sans-serif";
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.header-box__scroll {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	font-family: "Open Sans', sans-serif";
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header-box__scroll:after {
+	content: url('../img/triangle.png');
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.content-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	align-items: stretch;
+}
+
+.content-box__right {
+	background-color: #ffffff;
+	margin-left: 160px;
+	width: 40%;
+
+	
+}
+
+.content-box__right h2 {
+	padding-top: 125px;
+	padding-bottom: 40px;
+	font-size: 42px;
+	letter-spacing: 0px;
+	color: #3a4a62;
+	font-family: "Open Sans', sans-serif";
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.content-box__right ul {
+	font-size: 22px;
+	color: #575656;
+	font-family: "Open Sans', sans-serif";
+	font-weight: 300;
+	margin-bottom: 55px;
+}
+
+.content-box__right li {
+	margin-top:  20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	align-items: center;
+}
+
+.content-box__right li:before {
+	content: url('../img/arrow.png');
+	margin-right: 20px;
+} 
+
+.content-box__right li:nth-last-of-type(1) {
+	margin-top: 60px;
+	
+} 
+.content-box__right li:nth-last-of-type(1):before {
+	content: url('../img/heart.png');
+	margin-right: 20px;
+} 
+
+.content-box__right a {
+	margin-bottom: 125px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 494px;
+	height: 66px;
+	border-radius: 33px;
+	background-color: #ff8141;
+	font-size: 34px;
+	line-height: 43px;
+	color: #ffffff;
+	font-family: "Open Sans', sans-serif";
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.content-box__left {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: : stretch;
+	width: 60%;
+}
+
+.content-box__left img {
+	opacity: 0.5;
+}
+
+.content-box__left span {
+	position: absolute;
+	top: 670px;
+	right: 220px;
+	transform: rotate(20deg);
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 28px;
+	color: #000000;
+	font-family: "Open Sans', sans-serif";
+	text-align: center;
+}
+
+.button {
+	opacity: 0.7;
+	position: absolute;
+	top: 350px;
+	right: 580px;
+	display: inline-block;
+	margin: 40px;
+	width: 190px;
+	height: 190px;
+	background: url(http://subtlepatterns.com/patterns/extra_clean_paper.png);
+	cursor: pointer;
+	border-radius: 50%;
+ }
+
+
+footer {
+	box-sizing: border-box;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	background-color: #273d50;
+	height: 205px;
+	font-size: 56px;
+	letter-spacing: 1px;
+	line-height: 53px;
+	color: #fefdfd;
+	font-family: "Open Sans', sans-serif";
+	font-weight: 800;
+}
